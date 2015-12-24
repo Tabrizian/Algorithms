@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 void arr_cpy(int dst[],int src[],int start,int end)
 {
     int i=0;
@@ -75,7 +77,7 @@ int main()
     merge_sort(a,sizeof(a)/sizeof(int));
     for(i=0;i<sizeof(a)/sizeof(int);i++)
     {
-        printf("%d ",a[i]);
+        printf("%c ",a[i]);
     }
     return 0;
 }
