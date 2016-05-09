@@ -1,6 +1,6 @@
 #include <iostream>
 #define IN_DEL 2 //Insertion or deleting
-#define MUT 2    //Mutation cost
+#define MUT 1    //Mutation cost
 using namespace std;
 
 int seq_align(int i, int j, int arr1[], int arr2[], int size1, int size2){
